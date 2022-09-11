@@ -45,5 +45,18 @@ body{
         letter-spacing: 4px;
         font-weight: 500;
     }
+
+    .part-2 .text-content h1{
+        font-size:33px;
+        font-family: 'Fraunces', serif;
+        text-transform:capitalize;
+    }
+    .part-2 .text-content p{
+        font-size:13px;
+        font-family: 'Montserrat', sans-serif;
+        color: var(--text-color);
+        line-height:20px;
+        font-weight:500
+    }
     
 }
