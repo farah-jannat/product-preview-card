@@ -99,3 +99,24 @@ body{
         
     }
 }
+@media screen and (max-width:275px) {
+    .part-2 .text-content .tittle{
+        font-size: 11px;
+    }
+     .part-2 .text-content h1{
+        font-size:26px;
+     }
+    .part-2 .text-content p{
+        font-size:11px;
+    }
+     .price-container .new-price{
+        font-size:23px;
+     }
+    .price-container .old-price{
+        font-size:11px;
+    }
+    .button{
+        padding:10px 12px;
+        font-size:12px
+    }
+}
