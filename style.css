@@ -61,6 +61,9 @@ body{
     
     .price-container{
         padding:14px 0 17px 0;
+        display: flex;
+        gap: 20px;
+        align-items: center;
     }
     .price-container .new-price{
         font-size:31px;
@@ -68,6 +71,18 @@ body{
         color:var(--main-color);
         
     }
+    .price-container .old-price{
+        font-size:13px;
+        font-family: 'Montserrat', sans-serif;
+        color: var(--text-color);
+        font-weight: 500;
+        text-decoration: line-through;
+    
+    }
+
+
+
+
     .button{
         background:var(--main-color);
         color:#fff;
