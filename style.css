@@ -16,6 +16,14 @@ body{
     body{
         font-size: 14px;
     }
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .part-1{
+        height: 240px;
+    }
     .part-1 .img img{
         width: 100%;     
         height: 240px;
