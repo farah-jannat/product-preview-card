@@ -139,8 +139,31 @@ body{
     }
     .button{
         padding:9px 10px;
-        white-space:nowrap
-        font-size:11px
+        white-space:nowrap;
+        font-size:11px;
     }
 }
+@media screen and (max-width:194px) {
+    .part-1{
+        height: 210px;
+    }
+    .part-2{
+        
+        height: 430px;
+        padding: 17px;
+    }
+    .price-container{
+        padding:14px 0 17px 0;
+        display: flex;
+        flex-direction:column;
+        gap: 1px;
+        align-items: center;
+    }
+    .button{
+        padding:8px 9px;
+        white-space:nowrap;
+        font-size:10px
+    }
+}
+
 
