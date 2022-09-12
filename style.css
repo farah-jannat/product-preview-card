@@ -119,6 +119,7 @@ body{
         display: flex;
         flex-direction: column;
         gap: 0px;
+        width: 100%;
     }
     .part-1{
         height: 240px;
