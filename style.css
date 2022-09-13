@@ -8,14 +8,22 @@
 body{
     background-color: var(--background-color);
 }
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
 
 .container{
         display: flex;
-        background:red;
+        
         border-radius:10px 10px 10px 10px;
         gap: 0px;
-        width:50%;
-        height:500px;
+    
+        width: 520px;
+        height:450px;
         
     }
 .part-1{
@@ -36,7 +44,7 @@ body{
     }
 .part-2{
     background:white;
-    flex:50%;
+    flex:40%;
     
 }
  .part-2{
@@ -115,6 +123,7 @@ body{
     body{
         font-size: 14px;
     }
+
     .container{
         display: flex;
         flex-direction: column;
